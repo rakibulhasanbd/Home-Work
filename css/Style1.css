@@ -1,82 +1,67 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #d8cbcb;
-}
-.container1{
-   
-    width: 100%;
-    height: 100%;
-    background: #d8cbcb;
-    
-}
-.container1 .title{
-    font-size: 34px;
-    position: relative;
-    text-align: center;
-    display: flex;
-    margin-left: 47%;
-    margin-top: 39px;
-    color: #0e36a6;
-}
+
 .container{
-    max-width: 700px;
+    
+    height: 100%;
     width: 100%;
-    background: #fff;
-    padding: 25px 30px;
-    border-radius: 10px;
-    margin-left: 27%;
-    margin-top: 85px;
+    background-size: cover;
+    position: absolute;  
+    background-color: #bebebe;
+}
+.container h1{
+    text-align: center;
+    margin-top: 51px;
+    color: #4f4d5c;
+    margin-bottom: -36px
+}
+
+.form{
+    
+    width: 380px;
+    height: 285px;
+    position: relative;
+    margin: 6% auto;
+    background: #ddd;
+    padding: 5px;
+    background-position: center;
+    border-radius: 33px;
+  
 }
 .form h2{
     text-align: center;
 }
-.user_Details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.user_Details .input_Box{
-    width: 136px;
-     margin-bottom: 15px;
-}
-.user_Details .input_Box .details{
-    display: block;
-    font-weight: 500;
-    margin-bottom: 5px;
-    margin: 20px 0 12px 0;
-}
-.user_Details .input_Box select{
-    height: 29px;
+.form_Design{
     width: 100%;
-    outline: none;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    padding-left: 9px;
-    font-size: 12px;
+    margin-left: 68px;
+    margin-top: 20px;
 }
-.user_Details .input_Box input{
-    height: 29px;
-    width: 100%;
-    outline: none;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    padding-left: 9px;
-    font-size: 12px;
+.form_Design label p{
+    margin-bottom: -9px;
 }
-.form button{
-    height: 31px;
-    width: 95px;
-    margin-top: 18px;
-    background-color: #0e36a6;
+.form_Design input{
+    width: 244px;
+    height: 20px;
+    position: relative;
+    border: 2px solid #dad1d1;
+}
+.chech-box{
+    margin-left: 68px;
+     margin-top: 20px;
+}
+.checkbox1 p{
+    margin-left: 95px;
+    margin-top: -20px;
+    
+}
+.checkbox1 button{
+    margin-left: 68px;
+    margin-top: 20px;
+    height: 28px;
+    width: 87px;
+    background-color: #4f4d5c;
     color: white;
-    border-radius: 5px;
 }
+
